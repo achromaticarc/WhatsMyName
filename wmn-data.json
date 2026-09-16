@@ -5150,6 +5150,20 @@
       "cat": "social"
     },
     {
+      "name": "MAX",
+      "uri_check": "https://max.ru/{account}",
+      "e_code": 200,
+      "e_string": "в мессенджере MAX</title>",
+      "m_string": "linkInfo:{}",
+      "m_code": 200,
+      "known": [
+        "er_molnia",
+        "maxbot",
+        "medvedev_max"
+      ],
+      "cat": "social"
+    },
+    {
       "name": "MCUUID (Minecraft)",
       "uri_check": "https://playerdb.co/api/player/minecraft/{account}",
       "uri_pretty": "https://mcuuid.net/?q={account}",
